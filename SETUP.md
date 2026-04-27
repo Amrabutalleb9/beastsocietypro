@@ -17,11 +17,11 @@ git init
 git add -A
 git commit -m "Initial commit: Beast Society Pro website"
 git branch -M main
-git remote add origin https://github.com/YOUR_USER/beastsocietypro.git
+git remote add origin https://github.com/Amrabutalleb9/beastsocietypro.git
 git push -u origin main
 ```
 
-Create an empty repository named `beastsocietypro` on GitHub first, then set `YOUR_USER` (or org) and push.
+Remote `origin` is set to **Amrabutalleb9/beastsocietypro**; push with `git push -u origin main` after local commits.
 
 ## Cloudflare Pages
 
