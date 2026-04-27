@@ -25,11 +25,11 @@ Remote `origin` is set to **Amrabutalleb9/beastsocietypro**; push with `git push
 
 ## Cloudflare Pages
 
-1. Cloudflare Dashboard → Workers & Pages → Create → **Pages** → Connect to Git.
-2. Repository: `beastsocietypro` (after push).
-3. **Build command:** (empty). **Build output directory:** `/` (root).
-4. **Production branch:** `main`.
-5. **Custom domains:** add `beastsocietypro.com` and `www.beastsocietypro.com`.
+This repo includes **`.github/workflows/deploy-cloudflare-pages.yml`**. Add GitHub Actions secrets **`CLOUDFLARE_API_TOKEN`** and **`CLOUDFLARE_ACCOUNT_ID`** (see parent **[BEAST_SITES_CLOUDFLARE.md](../BEAST_SITES_CLOUDFLARE.md)**). Each push to `main` runs `wrangler pages deploy` and can create the Pages project on first success.
+
+Then attach **Custom domains** in the Cloudflare project: `beastsocietypro.com` and `www.beastsocietypro.com`.
+
+**Alternative:** Dashboard → Workers & Pages → Connect to Git (empty build, output `/`) instead of the workflow.
 
 ## DNS & email (optional)
 
