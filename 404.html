@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Page Not Found | Beast Society Pro</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="404 — Page Not Found | Beast Society Pro">
+    <meta property="og:site_name" content="Beast Society Pro">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .error-page { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 40px 24px; }
+        .error-code { font-size: clamp(5rem, 15vw, 10rem); font-weight: 800; color: var(--accent); line-height: 1; margin-bottom: 16px; }
+        .error-title { font-size: 1.5rem; margin-bottom: 12px; }
+        .error-desc { color: var(--text-secondary); margin-bottom: 32px; max-width: 400px; }
+    </style>
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">beast<span>society</span><span>pro</span></a>
+        </div>
+    </nav>
+
+    <section class="error-page">
+        <div>
+            <div class="error-code">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-desc">The page you&rsquo;re looking for doesn&rsquo;t exist or has been moved.</p>
+            <a href="/" class="btn btn-primary">Back to Home</a>
+        </div>
+    </section>
+
+    <div class="cookie-banner" id="cookieBanner" style="display:none;">
+        <div class="cookie-content">
+            <p>We use cookies to improve your experience. <a href="cookie-policy.html">Learn more</a></p>
+            <div class="cookie-actions">
+                <button type="button" class="btn btn-primary btn-sm" id="cookieAccept">Accept</button>
+                <button type="button" class="btn btn-outline btn-sm" id="cookieDecline">Decline</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

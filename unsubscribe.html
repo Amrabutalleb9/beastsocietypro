@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsubscribe — Beast Society Pro</title>
+    <meta name="description" content="Unsubscribe from Beast Society Pro email communications.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="canonical" href="https://www.beastsocietypro.com/unsubscribe.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.beastsocietypro.com/unsubscribe.html">
+    <meta property="og:title" content="Unsubscribe — Beast Society Pro">
+    <meta property="og:description" content="Unsubscribe from Beast Society Pro email communications.">
+    <meta property="og:site_name" content="Beast Society Pro">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="legal.css">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">beast<span>society</span><span>pro</span></a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="/">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="legal-page">
+        <div class="legal-container">
+            <h1>Unsubscribe</h1>
+            <span class="last-updated">Last updated: April 27, 2026</span>
+
+            <p>We respect your inbox. If you no longer wish to receive email communications from Beast Society Pro, you can unsubscribe using the form below or any of the alternative methods listed.</p>
+
+            <h2>Unsubscribe from Our Emails</h2>
+            <p>Enter the email address you used to subscribe, and we&rsquo;ll process your removal request promptly.</p>
+
+            <form class="unsub-form" id="unsubForm">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn-primary btn-full">Unsubscribe</button>
+            </form>
+            <div class="unsub-success" id="unsubSuccess">
+                <strong>Request received.</strong> You have been unsubscribed. Please allow up to 48 hours for the change to take full effect. You may still receive emails that were already scheduled before your request was processed.
+            </div>
+
+            <h2>Alternative Ways to Unsubscribe</h2>
+            <ol>
+                <li><strong>Click the unsubscribe link</strong> at the bottom of any email you&rsquo;ve received from us. Every email contains an unsubscribe link as required by law.</li>
+                <li><strong>Reply with "UNSUBSCRIBE"</strong> to any email from us.</li>
+                <li><strong>Email us directly</strong> at <a href="mailto:contact@beastsocietypro.com">contact@beastsocietypro.com</a> with the subject line "Unsubscribe" and the email address you want removed.</li>
+            </ol>
+
+            <h2>Processing Time</h2>
+            <p>Unsubscribe requests are typically processed within 24 hours. In rare cases, it may take up to 48 hours. Emails already in queue at the time of your request may still be delivered.</p>
+
+            <h2>Contact Us</h2>
+            <p>If you continue to receive emails after 48 hours, or have questions about your subscription, contact us at:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:contact@beastsocietypro.com">contact@beastsocietypro.com</a></li>
+                <li><strong>Website:</strong> <a href="https://www.beastsocietypro.com">www.beastsocietypro.com</a></li>
+                <li><strong>Location:</strong> Dubai, United Arab Emirates</li>
+            </ul>
+
+            <div class="legal-footer">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-of-service.html">Terms of Service</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="cookie-policy.html">Cookie Policy</a>
+                <a href="unsubscribe.html">Unsubscribe</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="cookie-banner" id="cookieBanner" style="display:none;">
+        <div class="cookie-content">
+            <p>We use cookies to improve your experience. <a href="cookie-policy.html">Learn more</a></p>
+            <div class="cookie-actions">
+                <button type="button" class="btn btn-primary btn-sm" id="cookieAccept">Accept</button>
+                <button type="button" class="btn btn-outline btn-sm" id="cookieDecline">Decline</button>
+            </div>
+        </div>
+    </div>
+    <script>
+    (function() {
+        var form = document.getElementById('unsubForm');
+        var success = document.getElementById('unsubSuccess');
+        if (form && success) {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                form.style.display = 'none';
+                success.style.display = 'block';
+            });
+        }
+    })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
