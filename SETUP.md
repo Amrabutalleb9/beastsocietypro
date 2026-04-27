@@ -1,5 +1,7 @@
 # Setup: Beast Society Pro
 
+All six domains follow the same deploy pattern; see **[BEAST_SITES_CLOUDFLARE.md](../BEAST_SITES_CLOUDFLARE.md)** in the parent folder for a combined checklist.
+
 ## Contact & compliance
 
 - **Email:** contact@beastsocietypro.com
